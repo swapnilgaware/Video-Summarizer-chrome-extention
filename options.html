@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Video to Bullets – Options</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Settings</h1>
+
+    <label class="lbl">API Base URL
+      <input id="apiBase" placeholder="https://api.openai.com/v1" />
+    </label>
+
+    <label class="lbl">Model
+      <input id="model" placeholder="gpt-4o-mini" />
+    </label>
+
+    <label class="lbl">API Key
+      <input id="apiKey" type="password" placeholder="sk-…" />
+    </label>
+
+    <button id="save">Save</button>
+    <pre id="status" class="status"></pre>
+  </div>
+  <script type="module" src="options.js"></script>
+</body>
+</html>
